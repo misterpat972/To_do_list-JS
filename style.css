@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+:root{
+    
+}
+
+body {
+    background-color: #485b61;    
+    margin: 0;
+    padding: 0;
+}
+.titre{   
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    font-family: 'Great Vibes', cursive;
+}
+.italic{
+    font-style: italic;
+    color: red;
+    z-index: 1;
+}
+.form-control{
+    border-color: red;
+}
+.material-symbols-outlined{
+    color: red; 
+    cursor: pointer;  
+    float: right;   
+}
+.container{    
+    border: 1px solid ;
+    margin-top: 3em;
+    border-radius: 10px;
+    width: 20%;
+    height: auto;
+    padding-bottom: 4em;
+    background-image: url("image/plage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    z-index: -2;
+}
+.text-center{
+    color:rgb(17, 230, 123);
+    font-family: 'Edu QLD Beginner', cursive;
+}
+.container > img{
+    filter: blur(5px);
+}
